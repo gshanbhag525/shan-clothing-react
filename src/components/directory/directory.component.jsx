@@ -2,7 +2,7 @@ import render from 'dom-serializer';
 import React from 'react';
 import "./directory.styles.scss";
 
-import MenuItem from "../menu-item/menu-item.component"
+import MenuItem from "../menu-item/menu-item.component";
 
 class Directory extends React.Component {
     constructor() {
