@@ -1,4 +1,3 @@
-import render from 'dom-serializer';
 import React from 'react';
 import "./directory.styles.scss";
 
