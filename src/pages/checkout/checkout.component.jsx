@@ -31,11 +31,7 @@ const CheckoutPage = ({ cartItems, total }) => (
       <div className="header-block"></div>
       <span>Remove</span>
     </div>
-    {
-      cartItems.map(cartItem =>
-        cartItem.name  
-      )
-    }
+    {cartItems.map((cartItem) => cartItem.name)}
     <div className="total">
       <span>Total : ${total}</span>
     </div>
